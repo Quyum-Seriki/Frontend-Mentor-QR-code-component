@@ -39,3 +39,23 @@ section p{
     color: #473a9b8e;
     font-size: 13px;
 }
+@media ((min-width: 375px) and (max-width: 768px)){
+    .wrapper{
+        margin: 0 auto;
+        width: 80%;
+    }
+    img{
+        margin: 4px 0 0 7px;
+    }
+    section h1{
+        margin-left: 12px;
+        font-size: 25px;
+    }
+    section h1:first-of-type{
+        margin-left: 3px;
+        font-size: 28px;
+    }
+    section p{
+        font-size: 20px;
+    }
+}
