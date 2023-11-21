@@ -1,26 +1,41 @@
 *{
     margin: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:sans-serif;
 }
 body{
-    background-color: #c2b8b8;
+    background-color: #3a3ddd27;
 }
 section{
-
+    padding-top: 100px;
 }
 .wrapper{
     margin: 0 auto;
     width: 20%;
-    padding-top: 100px;
+    padding: 20px 0px 10px 25px;
     background-color: #ffffff;
-    pad
+    border-radius: 20px;
+    padding-bottom: 50px;
 }
 img{
-    width: 90%;
+    width: 97%;
+    border-radius: 10px;
+    position: relative;
+    left: -3.2%;
+    margin-top: -7px;
 }
 section h1{
     width: 100%;
+    font-size: 16px;
+    color: rgba(1, 6, 34, 0.836);
+    font-weight: 900;
+}
+section h1:first-of-type{
+    padding: 20px 0 0 15px;
 }
 section p{
-    width: 35%;
+    width: 85%;
+    text-align: center;
+    padding-top: 15px;
+    color: #473a9b8e;
+    font-size: 13px;
 }
