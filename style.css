@@ -20,22 +20,23 @@ img{
     width: 97%;
     border-radius: 10px;
     position: relative;
-    left: -3.2%;
+    left: -3%;
     margin-top: -7px;
 }
 section h1{
     width: 100%;
-    font-size: 16px;
+    font-size: 20px;
     color: rgba(1, 6, 34, 0.836);
     font-weight: 900;
+    padding-left: 10px;
 }
 section h1:first-of-type{
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 20px;
 }
 section p{
     width: 85%;
     text-align: center;
-    padding-top: 15px;
+    padding: 15px 0 0 10px;
     color: #473a9b8e;
     font-size: 13px;
 }
