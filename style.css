@@ -46,7 +46,13 @@ section:first-of-type p {
 }
 section:last-of-type{
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
+}
+section:last-of-type a{
+    color: rgb(59, 146, 175);
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500
 }
 @media ((min-width: 375px) and (max-width: 545px)) {
     .wrapper {
