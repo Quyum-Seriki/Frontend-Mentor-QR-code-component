@@ -7,13 +7,13 @@ body {
     background-color: #3a3ddd27;
 }
 
-section {
+section:first-of-type {
     padding-top: 100px;
 }
 
 .wrapper {
     margin: 0 auto;
-    width: 30%;
+    width: 25%;
     padding: 20px 0px 10px 25px;
     background-color: #ffffff;
     border-radius: 20px;
@@ -28,23 +28,26 @@ img {
     margin-top: -7px;
 }
 
-section h1 {
+section:first-of-type h1 {
     width: 100%;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: rgba(1, 6, 34, 0.836);
     font-weight: 900;
     padding-left: -30px;
 }
 
-section p {
+section:first-of-type p {
     width: 75%;
     text-align: center;
     padding: 15px 0 0 50px;
     color: #473a9b8e;
     font-size: 18px;
 }
-
+section:last-of-type{
+    text-align: center;
+    padding: 20px 0;
+}
 @media ((min-width: 375px) and (max-width: 545px)) {
     .wrapper {
         margin: 0 auto;
@@ -56,20 +59,20 @@ section p {
         margin: 4px 0 0 -12px;
     }
 
-    section h1 {
+    section:first-of-type h1 {
         font-size: 23px;
         margin-left: -4%;
     }
-    section h1:first-of-type{
+    section:first-of-type h1:first-of-type{
         padding: 10px 0 0 3px;
     }
 
-    section h1:first-of-type {
+    section:first-of-type h1:first-of-type {
         font-size: 25px;
 
     }
 
-    section p {
+    section:first-of-type p {
         font-size: 20px;
         width: 80%;
         margin-left: -20px;
@@ -87,29 +90,29 @@ section p {
         margin: 4px 0 0 7px;
     }
 
-    section h1 {
+    section:first-of-type h1 {
         font-size: 25px;
         margin-left: -5%;
     }
 
-    section h1:first-of-type {
+    section:first-of-type h1:first-of-type {
         margin-left: -7%;
         font-size: 25px;
     }
 
-    section p {
+    section:first-of-type p {
         font-size: 20px;
     }
 }
 
 @media ((min-width: 650px) and (max-width: 785px)) {
-    section h1 {
+    section:first-of-type h1 {
         text-align: center;
         font-size: 28px;
         margin-left: -30px;
     }
 
-    section h1:first-of-type {
+    section:first-of-type h1:first-of-type {
         padding: 10px 0 0 10px;
     }
 
@@ -119,7 +122,7 @@ section p {
         
     }
 
-    section p {
+    section:first-of-type p {
         font-size: 18px;
         width: 80%;
         margin-left: -20px;
@@ -133,13 +136,13 @@ section p {
 }
 
 @media ((min-width: 785px) and (max-width: 900px)) {
-    section h1 {
+    section:first-of-type h1 {
         font-size: 25px;
         text-align: center;
         margin-left: -10px;
     }
 
-    section h1:first-of-type {
+    section:first-of-type h1:first-of-type {
         padding: 10px 0 0 0;
     }
 
@@ -147,7 +150,7 @@ section p {
         width: 50%;
     }
 
-    section p {
+    section:first-of-type p {
         font-size: 18px;
         width: 90%;
         margin-left: -30px;
@@ -159,12 +162,12 @@ section p {
     }
 }
 @media ((min-width: 900px) and (max-width: 1000px)){
-    section h1 {
+    section:first-of-type h1 {
         font-size: 22px;
         margin-left: -15px;
     }
 
-    section h1:first-of-type {
+    section:first-of-type h1:first-of-type {
         padding: 10px 0 0 0;
     }
 
@@ -172,7 +175,7 @@ section p {
         width: 40%;
     }
 
-    section p {
+    section:first-of-type p {
         font-size: 20px;
         width: 85%;
         margin-left: -20px;
@@ -184,12 +187,12 @@ section p {
     }
 }
 @media ((min-width: 1000px) and (max-width: 1100px)){
-    section h1 {
+    section:first-of-type h1 {
         font-size: 23px;
         margin-left: -13px;
     }
 
-    section h1:first-of-type {
+    section:first-of-type h1:first-of-type {
         padding: 10px 0 0 0;
     }
 
@@ -197,7 +200,7 @@ section p {
         width: 40%;
     }
 
-    section p {
+    section:first-of-type p {
         font-size: 18px;
         width: 90%;
         margin-left: -40px;
@@ -209,12 +212,12 @@ section p {
     }
 }
 @media ((min-width: 1100px) and (max-width: 1300px)) {
-    section h1 {
+    section:first-of-type h1 {
         font-size: 22px;
         margin-left: -13px;
     }
 
-    section h1:first-of-type {
+    section:first-of-type h1:first-of-type {
         padding: 10px 0 0 0;
     }
 
@@ -222,7 +225,7 @@ section p {
         width: 30%;
     }
 
-    section p {
+    section:first-of-type p {
         font-size: 18px;
         width: 90%;
         margin-left: -40px;
@@ -235,23 +238,23 @@ section p {
 }
 
 @media ((min-width: 1300px) and (max-width: 1400px)) {
-    section h1 {
+    section:first-of-type h1 {
         margin-left: -10px;
         font-size: 24px;
     }
 
-    section h1:first-of-type {
+    section:first-of-type h1:first-of-type {
         padding: 10px 0 0 0;
     }
 }
 
 @media ((min-width: 1400px) and (max-width: 1500px)) {
-    section h1 {
+    section:first-of-type h1 {
         margin-left:-10px;
         font-size: 25px;
     }
 
-    section h1:first-of-type {
+    section:first-of-type h1:first-of-type {
         padding: 10px 0 0 0;
     }
 }
