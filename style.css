@@ -54,7 +54,7 @@ section:last-of-type a{
     font-size: large;
     font-weight: 500
 }
-@media ((min-width: 375px) and (max-width: 545px)) {
+@media ((min-width: 300px) and (max-width: 545px)) {
     .wrapper {
         margin: 0 auto;
         width: 80%;
