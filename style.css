@@ -79,9 +79,9 @@ section:last-of-type a{
     }
 
     section:first-of-type p {
-        font-size: 20px;
-        width: 80%;
-        margin-left: -20px;
+        font-size: 18px;
+        width: 90%;
+        margin-left: -50px;
     }
 }
 
